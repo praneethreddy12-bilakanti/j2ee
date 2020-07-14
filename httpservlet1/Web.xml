@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+    <servlet-class>HelloWorld</servlet-class>
+    <servlet-name>abc</servlet-name>
+  </servlet>
+           <servlet-mapping>
+           
+           <servlet-name>abc</servlet-name>
+           <url-name>/test</url-name>
+           
+           
+           
+           </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</web-app>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="post" action="database.jsp" > 
+username<input id="demo" type="text" name="username" required="required"/><br/>
+password<input type="password" name="password"/><br/>
+<input type="submit" value="login" onclick="form()" /><br/>
+
+</form>
+<script type="text/javascript">
+function form()
+{
+	var x=prompt("/w"+"@"+"/w");
+	}
+document.GetElementById("demo").innerHTML=x;
+
+</script>
+</body>
+</html>
